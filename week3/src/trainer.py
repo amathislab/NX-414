@@ -17,10 +17,10 @@ class Trainer(object):
         self.err = []
 
         # Set up checkpoints
-        self.ckpt_dir = os.path.join(options.save_dir, options.run_ID)
+        self.ckpt_dir = os.path.join(options.save_dir)
         ckpt_path = os.path.join(self.ckpt_dir, 'trained_model.pth')
         if restore and os.path.isdir(self.ckpt_dir) and os.path.isfile(ckpt_path):
-            self.model.load_state_dict(torch.load(ckpt_path))
+            self.model.load_state_dict(torch.load(ckpt_path, map_location=torch.device(options.device)))
             print("Restored trained model from {}".format(ckpt_path))
         else:
             if not os.path.isdir(self.ckpt_dir):
