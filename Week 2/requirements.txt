@@ -3,8 +3,8 @@
 # $ conda create --name <env> --file <this file>
 appnope==0.1.4
 asttokens==2.4.1
-bzip2==1.0.8
-ca-certificates==2024.2.2
+# bzip2==1.0.8
+# ca-certificates==2024.2.2
 comm==0.2.1
 contourpy==1.2.0
 cycler==0.12.1
@@ -26,16 +26,16 @@ jupyter_client==8.6.0
 jupyter_core==5.5.0
 jupyterlab-widgets==3.0.10
 kiwisolver==1.4.5
-libcxx==16.0.6
-libffi==3.4.4
-libsodium==1.0.18
+# libcxx==16.0.6
+# libffi==3.4.4
+# libsodium==1.0.18
 matplotlib==3.8.3
 matplotlib-inline==0.1.6
-ncurses==6.4
+# ncurses==6.4
 nest-asyncio==1.6.0
 numpy==1.26.4
 opencv-python==4.9.0.80
-openssl==3.2.1
+# openssl==3.2.1
 packaging==23.2
 parso==0.8.3
 pexpect==4.9.0
@@ -49,27 +49,27 @@ ptyprocess==0.7.0
 pure_eval==0.2.2
 pygments==2.17.2
 pyparsing==3.1.1
-python==3.10.13
+# python==3.10.13
 python-dateutil==2.8.2
 pyzmq==25.1.2
-readline==8.2
+# readline==8.2
 scikit-learn==1.4.1.post1
 scipy==1.12.0
 setuptools==68.2.2
 six==1.16.0
-sqlite==3.41.2
+# sqlite==3.41.2
 stack_data==0.6.2
 threadpoolctl==3.3.0
-tk==8.6.12
+# tk==8.6.12
 tornado==6.3.3
 tqdm==4.66.2
 traitlets==5.14.1
 typing_extensions==4.10.0
-tzdata==2024a
+# tzdata==2024a
 wcwidth==0.2.13
 wheel==0.41.2
 widgetsnbextension==4.0.10
-xz==5.4.5
+# xz==5.4.5
 zeromq==4.3.5
 zipp==3.17.0
 zlib==1.2.13
