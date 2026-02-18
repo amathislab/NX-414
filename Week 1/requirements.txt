@@ -1,0 +1,11 @@
+# This file lists all the packages that are installed in the environment.
+# Run the following command to install the packages in a new environment:
+# $ conda create --name <env> --file <this file>
+numpy
+matplotlib
+scipy
+scikit-learn
+opencv-python
+tqdm
+ipykernel
+jupyter
