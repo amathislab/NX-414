@@ -179,6 +179,8 @@ When you open an existing notebook for this project, make sure to switch the not
 
 If you prefer, you can also inspect the package list in [requirements.txt](./requirements.txt).
 
+> **Important:** After the project deadline, your Gnoto workspaces will be deleted. Make sure to **back up any files or data you wish to keep** before then.
+
 ## Helpful Gnoto Links
 
 - Troubleshooting:
