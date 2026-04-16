@@ -164,7 +164,7 @@ Preferably, you should primarily focus on the open-ended extension you designed,
 
 ## Gnoto Setup
 
-On [gnoto.epfl.ch](gnoto.epfl.ch), create a fresh environment and Jupyter kernel as follows:
+On [gnoto.epfl.ch](https://gnoto.epfl.ch), create a fresh environment and Jupyter kernel as follows:
 
 ```bash
 my_venvs_create nx414
